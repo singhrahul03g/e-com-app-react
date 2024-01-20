@@ -1,0 +1,406 @@
+@import "../../../css-config/mixins.scss";
+
+.hero-banner {
+  height: 445px;
+  padding: 40px 0;
+  position: relative;
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+
+  @media only screen and (min-width: 320px) and (max-width: 420px) {
+    padding: 20px 0;
+    position: relative;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+  }
+
+  @media only screen and (min-width: 421px) and (max-width: 480px) {
+    padding: 20px 0;
+    position: relative;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    display: flex;
+    //   justify-content: center;
+    align-items: flex-start;
+    height: fit-content;
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 639px) {
+    padding: 20px 0;
+    position: relative;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    display: flex;
+    align-items: flex-start;
+    height: fit-content;
+    justify-content: center;
+  }
+
+  @include sm {
+    height: 337px;
+  }
+
+  @include lg {
+    width: 100%;
+    padding: 40px 0;
+    position: relative;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+  }
+
+  @include xl {
+    width: 100%;
+    padding: 40px 0;
+    position: relative;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 280px;
+    // margin: 0 auto;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    padding: 20px 20px;
+    row-gap: 27px;
+
+    @media only screen and (min-width: 320px) and (max-width: 420px) {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 0;
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+      padding: 20px 20px;
+      row-gap: 17px;
+    }
+
+    @media only screen and (min-width: 421px) and (max-width: 480px) {
+      padding: 20px 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 28px;
+      // margin: 0 auto;
+      align-items: center;
+      width: 250px;
+      height: 100%;
+      padding: 10px 10px;
+      row-gap: 7px;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 639px) {
+      padding: 20px 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      // margin-left: 28px;
+      margin-left: 0;
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+      padding: 10px 10px;
+      row-gap: 7px;
+    }
+
+    @include sm {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 0;
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+      padding: 20px 20px;
+      row-gap: 27px;
+    }
+
+    @include lg {
+      width: 68%;
+      padding: 40px;
+      position: relative;
+      background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100%;
+    }
+
+    @include xl {
+      width: 68%;
+      padding: 40px;
+      position: relative;
+      background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100%;
+    }
+
+    .text-content {
+      text-wrap: wrap;
+      text-align: center;
+      font-size: 50px;
+
+      @media only screen and (min-width: 320px) and (max-width: 420px) {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: -15px;
+        margin-left: 40px;
+        margin-top: 30px;
+      }
+
+      @media only screen and (min-width: 421px) and (max-width: 480px) {
+        text-wrap: wrap;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: -15px;
+      }
+
+      @media only screen and (min-width: 481px) and (max-width: 639px) {
+        text-align: center;
+        font-size: 23px;
+        margin-bottom: -15px;
+        margin-left: 40px;
+        margin-top: 30px;
+        padding-left: 46px;
+      }
+
+      @include lg {
+        width: 100%;
+        padding: 40px 55px;
+        position: relative;
+        background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+      }
+
+      @include xl {
+        width: 100%;
+        padding: 40px 55px;
+        position: relative;
+        background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+      }
+
+      h1 {
+        color: white;
+        text-transform: uppercase;
+        @media only screen and (min-width: 320px) and (max-width: 420px) {
+          font-size: 24px;
+          margin-left: 20px;
+        }
+      }
+    }
+
+    p {
+      // margin-top: 30px;
+      padding-top: 36px;
+      color: white;
+      text-align: center;
+
+      @media only screen and (min-width: 320px) and (max-width: 420px) {
+        font-size: 12px;
+        text-align: center;
+        text-wrap: wrap;
+        width: 70%;
+        padding-top: 4px;
+        margin-left: 0;
+      }
+
+      @media only screen and (min-width: 421px) and (max-width: 480px) {
+        padding-top: 26px;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+      }
+
+      @media only screen and (min-width: 481px) and (max-width: 639px) {
+        width: 63%;
+      }
+
+      @include sm {
+        padding-top: 36px;
+        color: white;
+        text-align: center;
+        width: 347px;
+      }
+
+      @include lg {
+        padding-top: 36px;
+        color: white;
+        text-align: center;
+        width: 400px;
+      }
+
+      @include xl {
+        padding-top: 36px;
+        color: white;
+        text-align: center;
+        width: 400px;
+      }
+    }
+
+    .ctas {
+      display: flex;
+      flex-direction: row;
+      column-gap: 10px;
+      margin-top: -8px;
+
+      @media only screen and (min-width: 320px) and (max-width: 420px) {
+        margin-bottom: 10px;
+      }
+
+      @media only screen and (min-width: 421px) and (max-width: 480px) {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        margin-top: 6px;
+      }
+
+      @media only screen and (min-width: 481px) and (max-width: 639px) {
+        margin-top: 19px;
+        margin-left: 64px;
+      }
+
+      @include lg {
+        padding-top: 36px;
+        color: white;
+        text-align: center;
+        width: 400px;
+        margin-left: 99px;
+      }
+
+      @include xl {
+        padding-top: 36px;
+        color: white;
+        text-align: center;
+        width: 400px;
+        margin-left: 99px;
+      }
+
+      .read-more {
+        color: white;
+        background: transparent;
+        border: 1px solid white;
+        border-radius: 2px;
+        padding: 4px 12px;
+        font-size: 12px;
+        text-transform: uppercase;
+
+        @media only screen and (min-width: 421px) and (max-width: 480px) {
+          color: white;
+          background: transparent;
+          border: 1px solid white;
+          border-radius: 1px;
+          padding: 4px 12px;
+          font-size: 6px;
+          text-transform: uppercase;
+        }
+      }
+      .shop-now {
+        color: black;
+        background: white;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        padding: 4px 12px;
+        font-size: 12px;
+        text-transform: uppercase;
+        @media only screen and (min-width: 421px) and (max-width: 480px) {
+          color: black;
+          background: white;
+          border: 1px solid transparent;
+          border-radius: 1px;
+          padding: 4px 12px;
+          font-size: 6px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  .banner-img {
+    position: absolute;
+    z-index: 9;
+    width: 268px;
+    /* margin-left: -200px; */
+    height: 88%;
+    top: 22px;
+    right: 28%;
+
+    @media only screen and (min-width: 320px) and (max-width: 420px) {
+      position: absolute;
+      z-index: 9;
+      width: 78px;
+      /* margin-left: -200px; */
+      height: 72%;
+      top: 18%;
+      right: 3%;
+    }
+
+    @media only screen and (min-width: 421px) and (max-width: 480px) {
+      position: absolute;
+      z-index: 9;
+      width: 140px;
+      /* margin-left: -200px; */
+      height: 81%;
+      top: 8%;
+      right: 8%;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 639px) {
+      position: absolute;
+      z-index: 9;
+      width: 159px;
+      /* margin-left: -200px; */
+      height: 91%;
+      top: 4%;
+      right: 5%;
+    }
+
+    @include sm {
+      position: absolute;
+      z-index: 9;
+      width: 229px;
+      height: 86%;
+      top: 22px;
+      right: 4%;
+    }
+
+    @include lg {
+      position: absolute;
+      z-index: 9;
+      width: 239px;
+      height: 86%;
+      top: 22px;
+      right: 21%;
+    }
+
+    @include xl {
+      position: absolute;
+      z-index: 9;
+      width: 239px;
+      height: 86%;
+      top: 22px;
+      right: 21%;
+    }
+  }
+}

@@ -1,0 +1,122 @@
+
+.carousel-item{
+    border: 1px solid transparent;
+    border-radius: 35px;
+    margin: 10px 18px;
+
+    .carousel-img1{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        height: 440px;
+        background-color: #854987;
+        width: 280px !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+
+        h2{
+            font-size: 32px ;
+            font-weight: 600;
+            color: yellow; 
+        }
+        p{
+            font-size: 22px !important;
+            color: white !important; 
+        }
+       
+    }
+    .carousel-img2{
+       border: 1px solid transparent;
+    border-radius: 20px;
+    height: 440px;
+    background-color: #ffcd00;
+    width: 280px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+        h2{
+            font-size: 32px ;
+            font-weight: 600;
+            color: blue; 
+        }
+        p{
+            font-size: 22px !important;
+            color: black !important; 
+        }
+       
+    }
+    .carousel-img3{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        height: 440px;
+        background-color: #2588d9;
+        width: 280px !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        
+        h2{
+            font-size: 32px ;
+            font-weight: 600;
+            color: yellow; 
+        }
+        p{
+            font-size: 22px !important;
+            color: white !important; 
+        }
+       
+    }
+    .carousel-img4{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        height: 440px;
+        background-color:#f36f21;
+        width: 280px !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        
+        h2{
+            font-size: 32px ;
+            font-weight: 600;
+            color: yellow ; 
+        }
+        p{
+            font-size: 22px !important;
+            color: white !important; 
+        }
+       
+    }
+    .carousel-img5{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        height: 440px;
+        background-color:#f2575b;
+        width: 280px !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        
+        h2{
+            font-size: 32px ;
+            font-weight: 600;
+            color: #ffcd00;
+        }
+        p{
+            font-size: 22px !important; 
+            color: white !important;   
+               
+        }
+    }
+}
+
